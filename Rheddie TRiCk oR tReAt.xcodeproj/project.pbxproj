@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEF760A1FA52B220058FAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF76091FA52B220058FAC1 /* AppDelegate.swift */; };
+		3FEF760C1FA52B220058FAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF760B1FA52B220058FAC1 /* ViewController.swift */; };
+		3FEF760F1FA52B220058FAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF760D1FA52B220058FAC1 /* Main.storyboard */; };
+		3FEF76111FA52B220058FAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF76101FA52B220058FAC1 /* Assets.xcassets */; };
+		3FEF76141FA52B220058FAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF76121FA52B220058FAC1 /* LaunchScreen.storyboard */; };
+		3FEF761F1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF761E1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtTests.swift */; };
+		3FEF762A1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF76291FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEF761B1FA52B220058FAC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEF75FE1FA52B210058FAC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEF76051FA52B220058FAC1;
+			remoteInfo = "Rheddie TRiCk oR tReAt";
+		};
+		3FEF76261FA52B220058FAC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEF75FE1FA52B210058FAC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEF76051FA52B220058FAC1;
+			remoteInfo = "Rheddie TRiCk oR tReAt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FEF76061FA52B220058FAC1 /* Rheddie TRiCk oR tReAt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rheddie TRiCk oR tReAt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEF76091FA52B220058FAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEF760B1FA52B220058FAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FEF760E1FA52B220058FAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEF76101FA52B220058FAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEF76131FA52B220058FAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEF76151FA52B220058FAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEF761A1FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rheddie TRiCk oR tReAtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEF761E1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rheddie_TRiCk_oR_tReAtTests.swift; sourceTree = "<group>"; };
+		3FEF76201FA52B220058FAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEF76251FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rheddie TRiCk oR tReAtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEF76291FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rheddie_TRiCk_oR_tReAtUITests.swift; sourceTree = "<group>"; };
+		3FEF762B1FA52B220058FAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEF76031FA52B220058FAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF76171FA52B220058FAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF76221FA52B220058FAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEF75FD1FA52B210058FAC1 = {
+			isa = PBXGroup;
+			children = (
+				3FEF76081FA52B220058FAC1 /* Rheddie TRiCk oR tReAt */,
+				3FEF761D1FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests */,
+				3FEF76281FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests */,
+				3FEF76071FA52B220058FAC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEF76071FA52B220058FAC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF76061FA52B220058FAC1 /* Rheddie TRiCk oR tReAt.app */,
+				3FEF761A1FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests.xctest */,
+				3FEF76251FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEF76081FA52B220058FAC1 /* Rheddie TRiCk oR tReAt */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF76091FA52B220058FAC1 /* AppDelegate.swift */,
+				3FEF760B1FA52B220058FAC1 /* ViewController.swift */,
+				3FEF760D1FA52B220058FAC1 /* Main.storyboard */,
+				3FEF76101FA52B220058FAC1 /* Assets.xcassets */,
+				3FEF76121FA52B220058FAC1 /* LaunchScreen.storyboard */,
+				3FEF76151FA52B220058FAC1 /* Info.plist */,
+			);
+			path = "Rheddie TRiCk oR tReAt";
+			sourceTree = "<group>";
+		};
+		3FEF761D1FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF761E1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtTests.swift */,
+				3FEF76201FA52B220058FAC1 /* Info.plist */,
+			);
+			path = "Rheddie TRiCk oR tReAtTests";
+			sourceTree = "<group>";
+		};
+		3FEF76281FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF76291FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtUITests.swift */,
+				3FEF762B1FA52B220058FAC1 /* Info.plist */,
+			);
+			path = "Rheddie TRiCk oR tReAtUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEF76051FA52B220058FAC1 /* Rheddie TRiCk oR tReAt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEF762E1FA52B220058FAC1 /* Build configuration list for PBXNativeTarget "Rheddie TRiCk oR tReAt" */;
+			buildPhases = (
+				3FEF76021FA52B220058FAC1 /* Sources */,
+				3FEF76031FA52B220058FAC1 /* Frameworks */,
+				3FEF76041FA52B220058FAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rheddie TRiCk oR tReAt";
+			productName = "Rheddie TRiCk oR tReAt";
+			productReference = 3FEF76061FA52B220058FAC1 /* Rheddie TRiCk oR tReAt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEF76191FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEF76311FA52B220058FAC1 /* Build configuration list for PBXNativeTarget "Rheddie TRiCk oR tReAtTests" */;
+			buildPhases = (
+				3FEF76161FA52B220058FAC1 /* Sources */,
+				3FEF76171FA52B220058FAC1 /* Frameworks */,
+				3FEF76181FA52B220058FAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEF761C1FA52B220058FAC1 /* PBXTargetDependency */,
+			);
+			name = "Rheddie TRiCk oR tReAtTests";
+			productName = "Rheddie TRiCk oR tReAtTests";
+			productReference = 3FEF761A1FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEF76241FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEF76341FA52B220058FAC1 /* Build configuration list for PBXNativeTarget "Rheddie TRiCk oR tReAtUITests" */;
+			buildPhases = (
+				3FEF76211FA52B220058FAC1 /* Sources */,
+				3FEF76221FA52B220058FAC1 /* Frameworks */,
+				3FEF76231FA52B220058FAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEF76271FA52B220058FAC1 /* PBXTargetDependency */,
+			);
+			name = "Rheddie TRiCk oR tReAtUITests";
+			productName = "Rheddie TRiCk oR tReAtUITests";
+			productReference = 3FEF76251FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEF75FE1FA52B210058FAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FEF76051FA52B220058FAC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3FEF76191FA52B220058FAC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEF76051FA52B220058FAC1;
+					};
+					3FEF76241FA52B220058FAC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEF76051FA52B220058FAC1;
+					};
+				};
+			};
+			buildConfigurationList = 3FEF76011FA52B210058FAC1 /* Build configuration list for PBXProject "Rheddie TRiCk oR tReAt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEF75FD1FA52B210058FAC1;
+			productRefGroup = 3FEF76071FA52B220058FAC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEF76051FA52B220058FAC1 /* Rheddie TRiCk oR tReAt */,
+				3FEF76191FA52B220058FAC1 /* Rheddie TRiCk oR tReAtTests */,
+				3FEF76241FA52B220058FAC1 /* Rheddie TRiCk oR tReAtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEF76041FA52B220058FAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEF76141FA52B220058FAC1 /* LaunchScreen.storyboard in Resources */,
+				3FEF76111FA52B220058FAC1 /* Assets.xcassets in Resources */,
+				3FEF760F1FA52B220058FAC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF76181FA52B220058FAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF76231FA52B220058FAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEF76021FA52B220058FAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEF760C1FA52B220058FAC1 /* ViewController.swift in Sources */,
+				3FEF760A1FA52B220058FAC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF76161FA52B220058FAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEF761F1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEF76211FA52B220058FAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEF762A1FA52B220058FAC1 /* Rheddie_TRiCk_oR_tReAtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEF761C1FA52B220058FAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEF76051FA52B220058FAC1 /* Rheddie TRiCk oR tReAt */;
+			targetProxy = 3FEF761B1FA52B220058FAC1 /* PBXContainerItemProxy */;
+		};
+		3FEF76271FA52B220058FAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEF76051FA52B220058FAC1 /* Rheddie TRiCk oR tReAt */;
+			targetProxy = 3FEF76261FA52B220058FAC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEF760D1FA52B220058FAC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEF760E1FA52B220058FAC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEF76121FA52B220058FAC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEF76131FA52B220058FAC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEF762C1FA52B220058FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEF762D1FA52B220058FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEF762F1FA52B220058FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rheddie TRiCk oR tReAt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "purplemaia.Rheddie-TRiCk-oR-tReAt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FEF76301FA52B220058FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rheddie TRiCk oR tReAt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "purplemaia.Rheddie-TRiCk-oR-tReAt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FEF76321FA52B220058FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rheddie TRiCk oR tReAtTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "purplemaia.Rheddie-TRiCk-oR-tReAtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rheddie TRiCk oR tReAt.app/Rheddie TRiCk oR tReAt";
+			};
+			name = Debug;
+		};
+		3FEF76331FA52B220058FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rheddie TRiCk oR tReAtTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "purplemaia.Rheddie-TRiCk-oR-tReAtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rheddie TRiCk oR tReAt.app/Rheddie TRiCk oR tReAt";
+			};
+			name = Release;
+		};
+		3FEF76351FA52B220058FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Rheddie TRiCk oR tReAtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "purplemaia.Rheddie-TRiCk-oR-tReAtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rheddie TRiCk oR tReAt";
+			};
+			name = Debug;
+		};
+		3FEF76361FA52B220058FAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Rheddie TRiCk oR tReAtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "purplemaia.Rheddie-TRiCk-oR-tReAtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rheddie TRiCk oR tReAt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEF76011FA52B210058FAC1 /* Build configuration list for PBXProject "Rheddie TRiCk oR tReAt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEF762C1FA52B220058FAC1 /* Debug */,
+				3FEF762D1FA52B220058FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEF762E1FA52B220058FAC1 /* Build configuration list for PBXNativeTarget "Rheddie TRiCk oR tReAt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEF762F1FA52B220058FAC1 /* Debug */,
+				3FEF76301FA52B220058FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FEF76311FA52B220058FAC1 /* Build configuration list for PBXNativeTarget "Rheddie TRiCk oR tReAtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEF76321FA52B220058FAC1 /* Debug */,
+				3FEF76331FA52B220058FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FEF76341FA52B220058FAC1 /* Build configuration list for PBXNativeTarget "Rheddie TRiCk oR tReAtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEF76351FA52B220058FAC1 /* Debug */,
+				3FEF76361FA52B220058FAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEF75FE1FA52B210058FAC1 /* Project object */;
+}
