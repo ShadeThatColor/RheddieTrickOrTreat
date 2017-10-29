@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        imageView.image=UIImage(named:"door,image")
+        imageview.image=UIImage(named:"door,image")
         Button.setTitle("Knock Knock", for:[])
         
     }
